@@ -29,3 +29,8 @@ http_req_duration : avg is our average latency, P(90) 90% of request having late
 ## throughput : total no request process/ given interval of time
 
 http_reqs/Vus
+
+
+![alt text](image-2.png)
+
+Stress testing we gradually increase load then decrease, 90% of request now less than 1.5ms because there is not consistent load
