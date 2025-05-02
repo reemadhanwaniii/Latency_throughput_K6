@@ -46,3 +46,32 @@ Threshold is like pass or fail criteria, let say we have dedicated ci/cd pipelin
 ![alt text](image-4.png)
 
 We define criteria and we failed one criteria 
+
+
+# how to improve latency and throughput : 
+
+ - network latency : time particular packet takes to travel in network from a source to destination.let say ur user are sitting here in india, and the servers that we have we deployed in us there is huge network latency that can come up because of cross continent call. 
+
+ - application latency : this is the delay at application server means business logic layer(backend server) may be you are not querying database efficiently.
+
+ - Read/write latency : writting , reading from disk 
+
+ `https://www.cloudflare.com/en-in/learning/performance/more/website-performance-conversion-rates/`
+
+## how to improve
+ Geographical load balancing 
+ Scaling (horizontal and vertical)
+ least connection strategy 
+ CDN's 
+ minimizing network hops and cross continental call
+ database level (sharding, caching)
+ change communication protocol 
+
+
+
+## Load Balancer types : 
+
+
+ - Application load balancer (L7 -> ELB/ALB )  works at 7 layer of osi model
+ - Network load balancer (L4 - >AWs-NLB)  works at 4 layer 
+ 
