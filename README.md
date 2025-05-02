@@ -34,3 +34,6 @@ http_reqs/Vus
 ![alt text](image-2.png)
 
 Stress testing we gradually increase load then decrease, 90% of request now less than 1.5ms because there is not consistent load
+
+# Spike Testing 
+![alt text](image-3.png)
