@@ -4,7 +4,7 @@ import {sleep, check} from 'k6';
 
 export let options = {
     duration: '30s',  //we want to test our api for 30sec
-    vus: 20
+    vus: 50
 }
 
 
